@@ -34,9 +34,6 @@ function initializeClock(id, endtime) {
   }
 
   updateClock();
-  console.log("clock is running");
+  //console.log("clock is running");
   var timeinterval = setInterval(updateClock, 1000);
 }
-
-var deadline = new Date("December 25, 2016 00:00:00");
-initializeClock('clockdiv', deadline);
